@@ -7,7 +7,9 @@ Resolution
     
 Refresh Rate
     75Hz 
-
+#
+#
+#
 1. Identify the name of your virtual monitor connected
 
     sudo xrandr
