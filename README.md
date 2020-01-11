@@ -10,7 +10,7 @@ Refresh Rate
 
 Please execute in your terminal=
 
-    sudo apt-get install xrandr gtf -y && gtf 1920 1080 75 && sudo xrandr --newmode "1920x1080_75.00" 173.00 1920 2048 2248 2576 1080 1083 1088 1120 -hsync +vsync 
+    sudo gtf 1920 1080 75 && sudo xrandr --newmode "1920x1080_75.00" 173.00 1920 2048 2248 2576 1080 1083 1088 1120 -hsync +vsync 
 
 Identify the name of your virtual monitor connected
 
