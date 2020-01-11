@@ -1,6 +1,8 @@
 # xrandr
 This is a tool to create and configure your virtual & physical monitor using the below parameters:
 
+Pre-Requisite: Have installed your Graphic Adapters Firmware & Drivers
+
 
 Resolution
     1920x1080 
