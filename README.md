@@ -29,3 +29,8 @@ Refresh Rate
 (In my case is= DP-1)
 
     sudo gtf 1920 1080 75 && sudo xrandr --newmode "1920x1080_75.00" 173.00 1920 2048 2248 2576 1080 1083 1088 1120 -hsync +vsync && sudo xrandr --addmode DP-1 1920x1080_75.00 && sudo xrandr --output DP-1 --mode "1920x1080_75.00"
+    
+# For VMware Linux virtual machine
+(In my case is= Virtual1)
+
+sudo gtf 1920 1080 60 && sudo xrandr --newmode "1920x1080_60.00" 173.00 1920 2048 2248 2576 1080 1083 1088 1120 -hsync +vsync && sudo xrandr --addmode Virtual1 1920x1080_60.00 && sudo xrandr --output Virtual1 --mode "1920x1080_60.00"
