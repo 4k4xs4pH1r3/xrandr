@@ -49,3 +49,7 @@ Refresh Rate
 # For VGA1 75Hz
 
     sudo gtf 1920 1080 75 && sudo xrandr --newmode "1920x1080_75.00" 173.00 1920 2048 2248 2576 1080 1083 1088 1120 -hsync +vsync && sudo xrandr --addmode VGA-1 1920x1080_75.00 && sudo xrandr --output VGA-1 --mode "1920x1080_75.00"
+
+# For VGA1 60Hz
+
+    sudo xrandr --newmode "1920x1080_60.00"  172.80  1920 2040 2248 2576  1080 1081 1084 1118  -HSync +Vsync && sudo xrandr --addmode VGA-1 1920x1080_60.00 && sudo xrandr --output VGA-1 --mode "1920x1080_60.00"
