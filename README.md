@@ -8,8 +8,7 @@ Resolution
     1920x1080 
     
 Refresh Rate
-    75Hz
-    60Hz
+    75Hz or 60Hz
 #
 #
 #
