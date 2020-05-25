@@ -56,6 +56,11 @@ Refresh Rate
 (In my case is= XWAYLAND0)
 
     sudo gtf 1920 1080 75 && sudo xrandr --newmode "1920x1080_75.00"  220.64  1920 2056 2264 2608  1080 1081 1084 1128  -HSync +Vsync && sudo xrandr --addmode XWAYLAND0 1920x1080_75.00 && sudo xrandr --output XWAYLAND0 --mode "1920x1080_75.00"
+    
+# For VMware Linux virtual machine 60Hz
+(In my case is= XWAYLAND0)
+
+    sudo gtf 1920 1080 60 && sudo xrandr --newmode "1920x1080_60.00"  172.80  1920 2040 2248 2576  1080 1081 1084 1118  -HSync +Vsync && sudo xrandr --addmode XWAYLAND0 1920x1080_60.00 && sudo xrandr --output XWAYLAND0 --mode "1920x1080_60.00"    
 
 # For VGA1 75Hz
 
